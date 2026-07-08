@@ -1,0 +1,4 @@
+style={{
+  backgroundImage: "url('/medical-bg.svg')",
+  backgroundSize: "cover",
+}}

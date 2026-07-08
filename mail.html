@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment Confirmation</title>
+</head>
+
+<body style="margin:0;padding:0;background:#f4f8fc;font-family:Arial,Helvetica,sans-serif;">
+
+<div style="padding:40px 20px;">
+
+  <div style="
+      max-width:650px;
+      margin:auto;
+      background:#ffffff;
+      border-radius:20px;
+      overflow:hidden;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  ">
+
+    <!-- Header -->
+    <div style="
+        background:linear-gradient(135deg,#2563eb,#06b6d4);
+        padding:35px;
+        text-align:center;
+        color:white;
+    ">
+
+      <h1 style="margin:0;font-size:32px;">
+        🏥 MedTranslate
+      </h1>
+
+      <p style="margin-top:10px;font-size:16px;">
+        Healthcare Made Simple & Accessible
+      </p>
+
+    </div>
+
+    <!-- Content -->
+    <div style="padding:40px;">
+
+      <h2 style="color:#1e293b;margin-bottom:20px;">
+        Appointment Confirmed Successfully
+      </h2>
+
+      <p style="color:#475569;font-size:16px;line-height:1.8;">
+        Dear Patient,
+      </p>
+
+      <p style="color:#475569;font-size:16px;line-height:1.8;">
+        Your appointment has been successfully scheduled.
+        Please find the details below.
+      </p>
+
+      <!-- Appointment Card -->
+      <div style="
+          background:#f8fafc;
+          border:1px solid #e2e8f0;
+          border-radius:16px;
+          padding:25px;
+          margin-top:25px;
+      ">
+
+        <table width="100%" cellspacing="0" cellpadding="8">
+
+          <tr>
+            <td style="color:#64748b;">Doctor</td>
+            <td style="font-weight:bold;color:#0f172a;">
+              {{doctorName}}
+            </td>
+          </tr>
+
+          <tr>
+            <td style="color:#64748b;">Specialization</td>
+            <td style="font-weight:bold;color:#0f172a;">
+              {{specialization}}
+            </td>
+          </tr>
+
+          <tr>
+            <td style="color:#64748b;">Date</td>
+            <td style="font-weight:bold;color:#0f172a;">
+              {{date}}
+            </td>
+          </tr>
+
+          <tr>
+            <td style="color:#64748b;">Time</td>
+            <td style="font-weight:bold;color:#0f172a;">
+              {{time}}
+            </td>
+          </tr>
+
+          <tr>
+            <td style="color:#64748b;">Reason</td>
+            <td style="font-weight:bold;color:#0f172a;">
+              {{reason}}
+            </td>
+          </tr>
+
+        </table>
+
+      </div>
+
+      <!-- Note -->
+      <div style="
+          margin-top:25px;
+          background:#ecfeff;
+          border-left:4px solid #06b6d4;
+          padding:18px;
+          border-radius:10px;
+      ">
+
+        <p style="margin:0;color:#0f172a;">
+          Please arrive 15 minutes before your appointment and keep your medical reports ready for consultation.
+        </p>
+
+      </div>
+
+      <p style="
+          margin-top:30px;
+          color:#475569;
+          line-height:1.8;
+      ">
+        Thank you for choosing MedTranslate.
+        We look forward to assisting you with your healthcare needs.
+      </p>
+
+      <p style="
+          margin-top:25px;
+          color:#0f172a;
+          font-weight:bold;
+      ">
+        Regards,<br>
+        MedTranslate Team
+      </p>
+
+    </div>
+
+    <!-- Footer -->
+    <div style="
+        background:#f8fafc;
+        border-top:1px solid #e2e8f0;
+        padding:20px;
+        text-align:center;
+    ">
+
+      <p style="
+          margin:0;
+          color:#64748b;
+          font-size:13px;
+      ">
+        This is an automated email from MedTranslate.
+      </p>
+
+      <p style="
+          margin-top:8px;
+          color:#94a3b8;
+          font-size:12px;
+      ">
+        © 2026 MedTranslate. All Rights Reserved.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
