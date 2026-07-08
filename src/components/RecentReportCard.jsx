@@ -2,8 +2,10 @@ import { useEffect, useState } from "react";
 import { supabase } from "../supabase";
 import { FaFileMedical, FaCheckCircle } from "react-icons/fa";
 import { MdWarningAmber } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
 export default function RecentReportCard() {
+  const navigate = useNavigate();
   const [report, setReport] = useState(null);
 
   useEffect(() => {
@@ -142,7 +144,8 @@ export default function RecentReportCard() {
 
           </div>
 
-          <button className="mt-8 px-6 py-3 rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition">
+          <button className="mt-8 px-6 py-3 rounded-2xl bg-blue-600 text-white hover:bg-blue-700 transition"
+           onClick={() => navigate("/reports")}>
             View Full Report
           </button>
         </>
